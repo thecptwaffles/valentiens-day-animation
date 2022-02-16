@@ -1,0 +1,6 @@
+.heart-shape {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(250, 184, 66, 0.8);
+}

@@ -1,22 +1,11 @@
 .heart-container {
     display: grid;
+
     height: 100vh;
     justify-content: center;
     align-content: center;
-    animation: pulse 4s ease-in-out infinite;
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(0.5);
-    }
-
-
-}
 
 
 .heart-shape {
@@ -28,7 +17,8 @@
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #ff0000;
+    background-color: ;
+    rgba(250, 184, 66, 1)
 }
 
 .heart-shape:before,
@@ -41,7 +31,7 @@
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    background-color: #ff0000;
+    background-color: rgb(231, 56, 25);
 }
 
 .heart-shape:before {
